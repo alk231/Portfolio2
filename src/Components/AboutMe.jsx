@@ -6,7 +6,7 @@ const AboutMe=()=>{
     <div class="mx-auto flex flex-col justify-center items-center md:px-16 lg:px-24">
       <h1 class="text-4xl text-white font-bold mb-12">About Me</h1>
       <div class="flex flex-col md:flex-row md:space-x-12">
-        <img src="src/assets/about.png" alt="" class="w-72 h-80 mx-auto rounded object-cover mb-8 md:mb-0"></img>
+        <img src="assets/about.png" alt="" class="w-72 h-80 mx-auto rounded object-cover mb-8 md:mb-0"></img>
         <div class="space-y-4">
         <p class="text-lg text-gray-300 mb-8 mx-3 md:mx-0">I am a passionate full-stack developer with a focus on building
               modern and responsive web applications. With a strong foundation
