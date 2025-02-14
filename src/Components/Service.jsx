@@ -26,17 +26,13 @@ const services=[
     title: "Content Writing",
     description: "Writing content for your business and companies.",
   },
-  {
-    id: 6,
-    title: "Digital Marketing",
-    description: "Promote your business with our digital marketing team.",
-  },
+  
 ];
 const Service = () => {
   return (
     <div id="Service" className="mt-20">
-      <h1 class="text-white text-4xl text-center font-bold mb-12">My Services</h1>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+      <h1 class="text-white text-4xl text-center font-bold mb-12">My Skills</h1>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 cursor-pointer">
         {services.map((service) => (
             <div key={service.id} class="bg-gray-800 mb-4 rounded-xl mx-9 hover:shadow-lg transform transition-transform duration-300 hover:scale-105">
               <h1 className="text-blue-400 font-bold text-lg text-right px-4">{service.id}</h1>

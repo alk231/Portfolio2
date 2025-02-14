@@ -12,7 +12,7 @@ const Navbar=()=>{
         <a href="#Project" class="font-semibold hover:text-gray-400">Projects</a>
         <a href="#Contact" class="font-semibold hover:text-gray-400">Contact</a>
       </ul>
-      <button class="border rounded-full px-4 py-2 bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline transform transition-transform duration-300 hover:scale-105">Contact Me</button>
+      <a href="#Contact" class="border rounded-full px-4 py-2 bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline transform transition-transform duration-300 hover:scale-105">Contact Me</a>
     </div>
   </nav>
     )

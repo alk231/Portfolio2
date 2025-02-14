@@ -1,5 +1,10 @@
 import React from "react";
-import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaGithub,
+  FaLinkedin,
+  FaTelegramPlane,
+} from "react-icons/fa";
 
 const Footer=()=>{
   return (
@@ -9,8 +14,8 @@ const Footer=()=>{
           <div className="flex-1 mb-4 md:mb-0">
             <h3 className="text-2xl font-bold mb-2">Alok</h3>
             <p className="text-gray-400">
-              Full-Stack Developer based in the USA, specializing in web and
-              software development.
+              Full-Stack Developer , specializing in web and software
+              development.
             </p>
           </div>
           <div className="flex-1 w-full">
@@ -40,16 +45,17 @@ const Footer=()=>{
             &copy; {new Date().getFullYear()} Alok. All rights reserved.
           </p>
           <div className="flex space-x-4 my-4 md:my-0">
-            <a href="#" className="text-gray-400 hover:text-white">
-              <FaFacebook />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white">
-              <FaTwitter />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            
+            <a
+              href="https://www.linkedin.com/in/alok-kumar-gupta-0b6b76262/"
+              className="text-gray-400 hover:text-white"
+            >
               <FaLinkedin />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a
+              href="https://github.com/alk231"
+              className="text-gray-400 hover:text-white"
+            >
               <FaGithub />
             </a>
           </div>
@@ -64,7 +70,7 @@ const Footer=()=>{
         </div>
       </div>
     </footer>
-  )
+  );
 }
 
 export default Footer

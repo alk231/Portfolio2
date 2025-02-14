@@ -6,31 +6,24 @@ import "slick-carousel/slick/slick-theme.css";
 const projects = [
   {
     id: 1,
-    name: "Employee MS",
-    technologies: "MERN Stack",
-    image: "assets/employee.png",
-    github: "https://github.com/YouafKhan1",
+    name: "License Plate Detection",
+    technologies: "MERN Stack,Machine Learning,Ardunio",
+    image: "assets/licensealk.png",
+    github: "https://github.com/alk231/LicensePlateRecognition.git",
   },
   {
     id: 2,
-    name: "Blog App",
+    name: "AI trip planner",
     technologies: "MERN Stack",
-    image: "assets/admin.png",
-    github: "https://github.com/YouafKhan1",
+    image: "assets/trip.png",
+    github: "https://full-stack-ai-trip-planner.vercel.app/",
   },
   {
     id: 3,
-    name: "Book MS",
+    name: "UPI Fraud Detection",
     technologies: "MERN Stack",
-    image: "assets/employee.png",
-    github: "https://github.com/YouafKhan1",
-  },
-  {
-    id: 4,
-    name: "Book MS",
-    technologies: "MERN Stack",
-    image: "assets/employee.png",
-    github: "https://github.com/YouafKhan1",
+    image: "assets/alk.jpeg",
+    github: "https://mini-project-2-3w1q.onrender.com/",
   },
 ];
 
@@ -75,7 +68,7 @@ const Project = () => {
       <h1 className="text-white text-center text-4xl font-bold mb-12">
         My Projects
       </h1>
-      <div className="mx-auto px-8 max-w-7xl">
+      <div className="mx-auto px-8 max-w-7xl cursor-pointer">
         <Slider {...settings}>
           {projects.map((project) => (
             <div
